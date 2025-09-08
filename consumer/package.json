@@ -1,0 +1,18 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "Consumer service for Pact contract testing demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@pact-foundation/pact": "^11.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "license": "MIT",
+  "type": "commonjs"
+}
