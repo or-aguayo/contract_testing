@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  consumer:
+    build: .
+    volumes:
+      - ./pacts:/app/pacts
+    working_dir: /app/consumer
+    command: npm test
+  provider:
+    build: .
+    volumes:
+      - ./pacts:/app/pacts
+    working_dir: /app/provider
+    command: npm test
