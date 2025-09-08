@@ -1,0 +1,19 @@
+{
+  "name": "provider",
+  "version": "1.0.0",
+  "description": "Provider service for Pact contract testing demo",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@pact-foundation/pact": "^11.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "license": "MIT",
+  "type": "commonjs"
+}
